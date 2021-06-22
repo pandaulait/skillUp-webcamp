@@ -1,20 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header{
-
-
   width: 100%;
-
+  background-color: #ec715f;
   flex-wrap: wrap;
 }
 header > .container{
   max-width: 1024px;
   height: 70px;
   margin: 0 auto;
-  background-color: #ec715f;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
+
 .logo{
   height: 70px;
   margin-right: auto;
@@ -24,11 +28,132 @@ header > .container{
 .nav{
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 0 auto;
+
   color: white;
+  font-size: 16px;
 }
 
 .nav-list{
   margin: 0 30px;
   display: inline-block;
+}
+
+.mv > .container{
+  background-image: url(img/mv.png);
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+    color: #FAFAFA;
+}
+.mv-title{
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.mv-text{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.heading::after{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
+.heading-text{
+  font-size: 16px;
+  color: #000000;
+}
+.portfolio{
+  background-color: #ECEFF1;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.portfolio > h2{
+  margin-top: 90px;
+  font-size: 32px;
+}
+.bg-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto 0 auto;
+  justify-content: center;
+}
+.bg{
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+}
+.bg1{
+  background-image: url(img/sketch.jpg);
+}
+.bg2{
+  background-image: url(img/websuku.png);
+}
+.bg3 {
+   background-image: url(img/write.jpg);
+}
+.bg4 {
+   background-image: url(img/webcamp.png);
+}
+.bg5 {
+   background-image: url(img/talk.jpg);
+}
+.bg6 {
+   background-image: url(img/webcamp-mother.png);
+}
+
+.feature{
+  background-color: #FFFFFF
+  
+}
+
+
+.feature > .container{
+  max-width: 980px;
+  padding-top: 90px;
+  padding-bottom:90px ;
+  text-align: center;
+  margin: 0 auto;
+}
+.heading-text{
+  margin: 30px auto;
+}
+.strength-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.strength{
+  max-width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+.strength:last-child{
+  margin-right: 0px;
+}
+
+.profile{
+  background-color: #ECEFF1;
+  text-align: center;
+}
+.profile-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+.my-face{
+  background-image: url(img/my-icon.jpg);
+  height: 250px;
+  width: 250px;
+}
+.profile-item{
+  width: 512px;
 }
