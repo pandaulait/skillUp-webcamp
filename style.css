@@ -1,0 +1,34 @@
+header{
+
+
+  width: 100%;
+
+  flex-wrap: wrap;
+}
+header > .container{
+  max-width: 1024px;
+  height: 70px;
+  margin: 0 auto;
+  background-color: #ec715f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.logo{
+  height: 70px;
+  margin-right: auto;
+
+}
+
+.nav{
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0 auto;
+  color: white;
+}
+
+.nav-list{
+  margin: 0 30px;
+  display: inline-block;
+}
